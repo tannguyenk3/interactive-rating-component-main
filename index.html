@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+  <div class="container">
+    <div class="card-rating">
+      <div class="img-star">
+        <img class="icon-star" src="images/icon-star.svg" alt="icon-star">
+      </div>
+      <h2>How did we do?</h2>
+      <span class="text">Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</span>
+        <div class="number-rating">
+          <p class="number-one" id="number-one">1</p>
+          <p class="number-two" id="number-two">2</p>
+          <p class="number-three" id="number-three">3</p>
+          <p class="number-four" id="number-four">4</p>
+          <p class="number-five" id="number-five">5</p>
+        </div>
+        <button class="btn">Submit</button>
+    </div>  
+
+    <div class="card-result">
+      <div class="elements">
+        <img src="images/illustration-thank-you.svg" alt="illustration-thank-you">
+        <p class="text-results"></p>
+        <h2>Thank you!</h2>
+        <span>We appreciate you taking the time to give a rating. If you ever need more support, 
+          don’t hesitate to get in touch!</span>
+        <button class="go-back">Go back</button>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
